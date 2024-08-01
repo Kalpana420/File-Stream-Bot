@@ -8,21 +8,21 @@ load_dotenv()
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv('API_ID', '28607445'))
-    API_HASH = str(getenv('API_HASH', 'b6f9dffc64aff6f32360114b46d9d490'))
+    API_ID = int(getenv('API_ID', ''))
+    API_HASH = str(getenv('API_HASH', ''))
     PICS = (environ.get('PICS','https://graph.org/file/132e6aeba58845b266177.jpg')).split()
     BOT_TOKEN = str(getenv('BOT_TOKEN', ''))
-    name = str(getenv('name', 'MissCharmingBot'))
+    name = str(getenv('name', ''))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
-    WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002200395480'))
+    WORKERS = int(getenv('WORKERS', ''))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', ''))
     PORT = int(getenv('PORT', 8080))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
-    OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "1477936637").split())  
+    OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "").split())  
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
-    OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'itsssSoMe1'))
+    OWNER_USERNAME = str(getenv('OWNER_USERNAME', ''))
     if 'DYNO' in environ:
         ON_HEROKU = True
         APP_NAME = str(getenv('APP_NAME'))
@@ -32,9 +32,9 @@ class Var(object):
     FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
     HAS_SSL=bool(getenv('HAS_SSL', False))
     if HAS_SSL:
-        URL = "https://level-tanitansy-kalpanachoudhary01-ef04e8b8.koyeb.app/".format(FQDN)
+        URL = "".format(FQDN)
     else:
-        URL = "https://level-tanitansy-kalpanachoudhary01-ef04e8b8.koyeb.app/".format(FQDN)
-    DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://shresthajain009:rAegi3S3pS0HqcQy@cluster0.whfkn.mongodb-stage.net/?retryWrites=true&w=majority&appName=Cluster0'))
-    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'updatechannel_tele'))
+        URL = "".format(FQDN)
+    DATABASE_URL = str(getenv('DATABASE_URL', ''))
+    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', ''))
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "")).split()))
