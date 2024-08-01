@@ -34,7 +34,7 @@ async def maintainers(b,m):
 async def follow_user(b,m):
     btn = [[
         InlineKeyboardButton(text="ᴛᴡɪᴛᴛᴇʀ", url=""),
-        InlineKeyboardButton(text="ɪɴꜱᴛᴀɢʀᴀᴍ", url="")
+        InlineKeyboardButton(text="ɪɴꜱᴛᴀɢʀᴀᴍ", url="https://www.instagram.com/goodmovies.clip?igsh=MWswYWRuOTZuam4yaQ==")
         ],[
         InlineKeyboardButton(text="ᴏᴜʀ  ᴏꜰꜰɪᴄɪᴀʟ  ᴄʜᴀɴɴᴇʟ", url="https://t.me/One_Picture_Perfect")
     ],[
@@ -48,7 +48,7 @@ async def follow_user(b,m):
     except Exception:
                 await StreamBot.send_photo(
                     chat_id=m.chat.id,
-                    photo='https://telegra.ph/file/b681d379605d3d3a9fa1c.jpg',
+                    photo='https://graph.org/file/132e6aeba58845b266177.jpg',
                     caption="<b>ᴏᴜʀ  ꜱᴏᴄɪᴀʟ  ᴍᴇᴅɪᴀ  ᴘʟᴀᴛꜰᴏʀᴍꜱ</b>",
                     reply_markup=InlineKeyboardMarkup(btn))
         
@@ -60,7 +60,7 @@ async def start(b,m):
     except Exception:
                 await StreamBot.send_photo(
                     chat_id=m.chat.id,
-                    photo='https://graph.org/file/8a955c85e785a5d95ba0c.jpg',
+                    photo='https://graph.org/file/132e6aeba58845b266177.jpg',
                     caption="<b><blockquote>❤️‍🔥 𝐓𝐡𝐚𝐧𝐤𝐬 𝐟𝐨𝐫 𝐬𝐡𝐨𝐰𝐢𝐧𝐠 𝐢𝐧𝐭𝐞𝐫𝐞𝐬𝐭 𝐢𝐧 𝐃𝐨𝐧𝐚𝐭𝐢𝐨𝐧</blockquote>\n\n<b><i>💞  ɪꜰ ʏᴏᴜ ʟɪᴋᴇ ᴏᴜʀ ʙᴏᴛ ꜰᴇᴇʟ ꜰʀᴇᴇ ᴛᴏ ᴅᴏɴᴀᴛᴇ ᴀɴʏ ᴀᴍᴏᴜɴᴛ ₹𝟷𝟶, ₹𝟸𝟶, ₹𝟻𝟶, ₹𝟷𝟶𝟶, ᴇᴛᴄ.</i></b>\n\n❣️ 𝐷𝑜𝑛𝑎𝑡𝑖𝑜𝑛𝑠 𝑎𝑟𝑒 𝑟𝑒𝑎𝑙𝑙𝑦 𝑎𝑝𝑝𝑟𝑒𝑐𝑖𝑎𝑡𝑒𝑑 𝑖𝑡 ℎ𝑒𝑙𝑝𝑠 𝑖𝑛 𝑏𝑜𝑡 𝑑𝑒𝑣𝑒𝑙𝑜𝑝𝑚𝑒𝑛𝑡\n\n💖 𝐔𝐏𝐈 𝐈𝐃 : <code>RahulReviews@sbi</code>")
 
     
