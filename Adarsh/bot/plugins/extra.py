@@ -41,7 +41,7 @@ async def follow_user(b,m):
         InlineKeyboardButton(text="ꜱᴜʙꜱᴄʀɪʙᴇ  ᴏᴜʀ  ʏᴛ  ᴄʜᴀɴɴᴇʟ", url="")
     ],[
         InlineKeyboardButton(text="ɢɪᴛʜᴜʙ", url="https://github.com/CodeXBots"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/movieuploader")
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/updatechannel_tele")
     ]]
     try:
        await b.send_message(chat_id=m.chat.id,text="HELLO",quote=True)
