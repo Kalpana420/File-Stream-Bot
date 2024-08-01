@@ -34,7 +34,7 @@ class Var(object):
     if HAS_SSL:
         URL = "https://level-tanitansy-kalpanachoudhary01-ef04e8b8.koyeb.app/".format(FQDN)
     else:
-        URL = "https://level-tanitansy-kalpanachoudhary01-ef04e8b8.koyeb.app/".format(FQDN)
+        URL = "".format(FQDN)
     DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://shresthajain009:rAegi3S3pS0HqcQy@cluster0.whfkn.mongodb-stage.net/?retryWrites=true&w=majority&appName=Cluster0'))
     UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'updatechannel_tele'))
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "")).split()))
