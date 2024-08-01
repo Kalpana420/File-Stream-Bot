@@ -130,7 +130,7 @@ async def help_handler(bot, message):
 ┣⪼<b>ɴᴀᴍᴇ : <a href='https://t.me/miss_charming_bot'>ꜰɪʟᴇ sᴛʀᴇᴀᴍ ʙᴏᴛ</a></b>
 ┣⪼<b>ꜱᴇʀᴠᴇʀ : ʜᴇʀᴜᴋᴏ</b>
 ┣⪼<b>ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ</b>
-┣⪼<b>ᴜᴘᴅᴀᴛᴇꜱ : <a href='https://t.me/movieuploader'>Filmy Zone</a></b>
+┣⪼<b>ᴜᴘᴅᴀᴛᴇꜱ : <a href='https://t.me/updatechannel_tele'>Filmy Zone</a></b>
 ┣⪼<b>ꜱᴜᴘᴘᴏʀᴛ : <a href='https://telegram.me/itsssSoMe1'>ᴅᴇᴠᴇʟᴏᴘᴇʀ ꜱᴜᴘᴘᴏʀᴛ</a></b>
 ┃
 <b>╰━━━━〔ᴘʟᴇᴀꜱᴇ sᴜᴘᴘᴏʀᴛ〕</b>""",
