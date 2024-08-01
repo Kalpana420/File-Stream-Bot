@@ -8,7 +8,7 @@ load_dotenv()
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv('API_ID', '1477936637'))
+    API_ID = int(getenv('API_ID', '28607445'))
     API_HASH = str(getenv('API_HASH', 'b6f9dffc64aff6f32360114b46d9d490'))
     PICS = (environ.get('PICS','https://graph.org/file/132e6aeba58845b266177.jpg')).split()
     BOT_TOKEN = str(getenv('BOT_TOKEN', ''))
