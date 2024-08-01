@@ -17,12 +17,12 @@ async def maintainers(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="ɪ  ᴀᴍ  ᴍᴀɪɴᴛᴀɪɴᴇᴅ  ʙʏ  [ʀᴀʜᴜʟ](https://telegram.me/CodeXBro)",
+                    text="ɪ  ᴀᴍ  ᴍᴀɪɴᴛᴀɪɴᴇᴅ  ʙʏ  [ʀᴀʜᴜʟ](https://telegram.me/itsssSoMe1)",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ   🧑‍💻", url=f"https://youtube.com/@RahulReviews")
+                                InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ   🧑‍💻", url=f"https://telegram.me/itsssSoMe1")
                             ]
                         ]
                     ),
@@ -33,15 +33,15 @@ async def maintainers(b,m):
 @StreamBot.on_message(filters.regex("follow❤️"))
 async def follow_user(b,m):
     btn = [[
-        InlineKeyboardButton(text="ᴛᴡɪᴛᴛᴇʀ", url="https://twitter.com/RahulReviewsYT"),
-        InlineKeyboardButton(text="ɪɴꜱᴛᴀɢʀᴀᴍ", url="https://instagram.com/RahulReviewsYT")
+        InlineKeyboardButton(text="ᴛᴡɪᴛᴛᴇʀ", url=""),
+        InlineKeyboardButton(text="ɪɴꜱᴛᴀɢʀᴀᴍ", url="")
         ],[
-        InlineKeyboardButton(text="ᴏᴜʀ  ᴏꜰꜰɪᴄɪᴀʟ  ᴄʜᴀɴɴᴇʟ", url="https://telegram.me/RahulReviews")
+        InlineKeyboardButton(text="ᴏᴜʀ  ᴏꜰꜰɪᴄɪᴀʟ  ᴄʜᴀɴɴᴇʟ", url="https://t.me/movieuploader")
     ],[
-        InlineKeyboardButton(text="ꜱᴜʙꜱᴄʀɪʙᴇ  ᴏᴜʀ  ʏᴛ  ᴄʜᴀɴɴᴇʟ", url="https://youtube.com/@RahulReviews")
+        InlineKeyboardButton(text="ꜱᴜʙꜱᴄʀɪʙᴇ  ᴏᴜʀ  ʏᴛ  ᴄʜᴀɴɴᴇʟ", url="")
     ],[
         InlineKeyboardButton(text="ɢɪᴛʜᴜʙ", url="https://github.com/CodeXBots"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://telegram.me/RahulReviewsYT")
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/movieuploader")
     ]]
     try:
        await b.send_message(chat_id=m.chat.id,text="HELLO",quote=True)
