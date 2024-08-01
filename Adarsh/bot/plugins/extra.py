@@ -36,7 +36,7 @@ async def follow_user(b,m):
         InlineKeyboardButton(text="ᴛᴡɪᴛᴛᴇʀ", url=""),
         InlineKeyboardButton(text="ɪɴꜱᴛᴀɢʀᴀᴍ", url="")
         ],[
-        InlineKeyboardButton(text="ᴏᴜʀ  ᴏꜰꜰɪᴄɪᴀʟ  ᴄʜᴀɴɴᴇʟ", url="https://t.me/movieuploader")
+        InlineKeyboardButton(text="ᴏᴜʀ  ᴏꜰꜰɪᴄɪᴀʟ  ᴄʜᴀɴɴᴇʟ", url="https://t.me/One_Picture_Perfect")
     ],[
         InlineKeyboardButton(text="ꜱᴜʙꜱᴄʀɪʙᴇ  ᴏᴜʀ  ʏᴛ  ᴄʜᴀɴɴᴇʟ", url="")
     ],[
