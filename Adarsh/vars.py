@@ -12,7 +12,7 @@ class Var(object):
     API_HASH = str(getenv('API_HASH', ''))
     PICS = (environ.get('PICS','https://graph.org/file/132e6aeba58845b266177.jpg')).split()
     BOT_TOKEN = str(getenv('BOT_TOKEN', ''))
-    name = str(getenv('name', 'miss_charming_bot'))
+    name = str(getenv('name', ''))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', ''))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', ''))
